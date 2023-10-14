@@ -1,153 +1,142 @@
 
-# OD&D — 3 Little Brown Books only
-
-And Chainmail for combat rules.
-
-RAW as much as possible. Fix mistakes/inconsistencies.
+# OD&D for younger players
 
 ## Combat
 
-TODO:
+### Surprise
 
-* d6 damage
-* combat within 3" — however this is an argument for 1" (in book III, under surprise)
-    * ah it's melee "range" (from Chainmail, 3") vs melee distance (1") — not sure what difference this actually makes?
-    * 1" is definitely "striking distance" and "control"
-    * sort of thinking of ignoring the 3" — still need move to get to "touching bases" which is 1"
-    * it's like, if you haven't used all your movement, and you're within 3" at melee phase, then you can use your remaining movement to get to 1"...
-        * some mention of "no more than half" in CM
-        * which is good for defending units — one unit near another can move to help if enemy attacks
-* surprise
-    * which gives one free round (sort of) plus initiative in next round?
-    * 10-30 feet (1-3")
-    * free movement
-    * it does seem that surprise doesn't give a full _round_ of activities...but it does give a second attack?
-    * so you can move + attack, or if you're within 1" attack twice
-        * no, it's getting initiative in the next round because it's the attacker
-        * Reference: https://odd74.proboards.com/post/260448/thread and https://odd74.proboards.com/post/260448
-* no initiative roll
-* use weapon class (as per Chainmail, and assign WC to natural weapons)
-* move and melee within a round
-* only in melee do you determine who strikes first (by "attackers", WC etc.)
-* missile and spells occur together
-    * actually could have spells go first (ie. artillery phase) — vancian
-    * for spell vs spell, it could be by Dex (same with missile vs missile — but easier just to make that simultaneous)
-* if combatants don't move, they can take pass through fire
-    * otherwise this isn't an option
-    * this is the only way to take a 2nd attack
-* possible for a movement, take missile fire, then melee because enemy runs into you
-* no spell casting or missile in melee
+First determine surprise.
 
-Because Chainmail allows for multiple attacks of ... TODO
+Surprised on a roll of 1 or 2.
 
-TODO simultaneous:
+If one side gains surprise, they are within 1-3" and can take a full round of actions — the surprised side cannot act. Surprising side gain initiative on the next round.
 
-* write/declare actions
-* do half move first — check for unordered melee
-    * and if there is contact? resolve now or during melee phase? i think later, just that movement then stops
-* conduct split moves and missile fire (basically Elves)
-* do pass through fire
-    * can only be done by missile troops who don't move
-    * an extra attack
-* TODO how to handle move toward melee and throw spears etc?
-    * is this even possible in CM?
-    * yes, but they'd have to take only a half move
-* spells
-* missile
-    * RoF = every turn
-        * can move up to half and fire once
-    * If archers/longbowmen haven't moved (and aren't meleed) they can fire again at end of turn
-    * Heavy crossbow is 1 every 2 (1 to load, 1 to fire)
-        * can move up to half and do either of these
-    * individual targets are selected (so not randomly chosen)
-    * pass through
-        * must be stationary
-        * can make missile attack at half move
-        * against anyone moving and within range
-* melees
-    * any troops with 3" and with spare movement can move into melee
-* TODO morale
+### Turn order
 
-Turn:
+1. Declare actions
+2. Roll initiative per side
+3. Winning side acts first
+4. Losing side acts second
+5. Morale check
 
-1. first half move
-1. second half move
-1. spells
-1. missile
-1. melee
+### Actions
 
-If you read CM, all the rules are there — it's just about adjusting bonuses/penalties for d20. For example:
+These take a full turn:
 
-* impetus bonus for charge (p.17) = +2 to hit
-* man-to-man for flank/rear attacks
-    * read = +2 to hit, defender can't strike back, lose initiative on next round
-    * attacked on defender's left flank = lose initiative on first round
-    * attacked on defender's right flank = shield can't be used (?)
-
-Man-to-man, multiple attacks and parry:
-
-* can't parry if weapon 2 or more classes higher than attacker's
-* weapon 1 class higher to 3 lower than attacker, defender may parry (-2 to hit for attacker...actually should it be -4?) but can't counter attack
-* 4-7 lower, defender can either take first blow or parry (as above)
-    * if attacker would've hit (to-hit or to-hit -1 = range of to-hit penalty), defender's weapon is broken
-    * if parry is successful, defender can make a counter attack
-* 8 or lower, defender:
-    * gets first blow
-        * doesn't get first blow on charge
-    * may parry or strike a second blow — this is only -1 on 2d6
-        * same breaking rules — TODO doesn't work with a larger range above, means breaking is less likely...but then, parrying is less likely...
-* multiple attacks is also noted — TODO how does this fit in with parrying? (wonder if i should not use them...)
-    * 4-7 lower = 2 attacks per round
-    * 8 or lower = 3 attacks per round
-    * actually it does work with multiple attacks
-        * 4-7: D, A, D OR A, Parry (possible counterattack), D
-        * 8 or lower: D, D, A, D OR D, A, Parry, D
-    * how do these multiple attacks work with multiple attacks against low HD?
-        * I don't think it does — from CM, a Hero attacks as 4 troop-type (eg. Heavy Foot), and that got turned into multiple attacks in OD&D.
-        * So the rules above really should only be used for fantastic combat, but then you're not going to use it for a lot of combat (eg. wading through orcs).
-
-Absolutely have to use weapon vs AC, even if I redo the values...this is required to make these multiple attack daggers less lethal — just use the values from the Greyhawk supplement.
-
-Another thought — using CM combat rules (including parrying and multiple attacks) for my OD&D+supplements rules (you'd lose initiative dice though). This would offset multiple attacks with both Weapon vs AC _and_ variable damage.
+1. Move
+2. Attack (move up to 10' before attacking)
+3. Missile
+4. Spell
 
 ### Attack Matrices
 
-#### Humans Attacking
+#### Men Attacking
 
-RAW:
+F     | MU    | C/T   | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
+------|-------|-------|----|----|----|----|-----|-----|-----|---
+0\*   | -     | -     | 18 | 17 | 16 | 15 | 14  | 13  | 12  | 11
+1     | 1-3   | 1-2   | 17 | 16 | 15 | 14 | 13  | 12  | 11  | 10
+2-3   | 4-5   | 3-4   | 16 | 15 | 14 | 13 | 12  | 11  | 10  | 9
+4     | 6-7   | 5-6   | 15 | 14 | 13 | 12 | 11  | 10  | 9   | 8
+5     | 8-9   | 7     | 14 | 13 | 12 | 11 | 10  | 9   | 8   | 7
+6     | 10-11 | 8-9   | 13 | 12 | 11 | 10 | 9   | 8   | 7   | 6
+7     | 12-13 | 10-11 | 12 | 11 | 10 | 9  | 8   | 7   | 6   | 5
+8-9   | 14-15 | 12-13 | 11 | 10 | 9  | 8  | 7   | 6   | 5   | 4
+10    | 16-18 | 14    | 10 | 9  | 8  | 7  | 6   | 5   | 4   | 3
+11-12 | 19-20 | 15-16 | 9  | 8  | 7  | 6  | 5   | 4   | 3   | 2
+13    | 21-22 | 17-18 | 8  | 7  | 6  | 5  | 4   | 3   | 2   | 1
+14    | 23-24 | 19-20 | 7  | 6  | 5  | 4  | 3   | 2   | 1   | 1
+15    | 25-26 | 21    | 6  | 5  | 4  | 3  | 2   | 1   | 1   | 1
+16    | 27-28 | 22-23 | 5  | 4  | 3  | 2  | 1   | 1   | 1   | 1
+17-18 | 29-30 | 24-25 | 4  | 3  | 2  | 1  | 1   | 1   | 1   | 1
+19    | 31-34 | 26-27 | 3  | 2  | 1  | 1  | 1   | 1   | 1   | 1
+20-21 | 35-36 | 28    | 2  | 1  | 1  | 1  | 1   | 1   | 1   | 1
 
-Fighter<br/>Level | Magic-User<br/>Level  | Cleric<br/>Level  | Monster HD  | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
---------|-------------|---------|-------------|----|----|----|----|-----|-----|-----|---
-1-3     | 1-5         | 1-4     |  up to 1    | 17 | 16 | 15 | 14 | 13  | 12  | 11  | 10
-&nbsp;  | &nbsp;      | &nbsp;  |  1+1        | 16 | 15 | 14 | 13 | 12  | 11  | 10  | 9
-4-6     | 6-10        | 5-8     |  2 to 3     | 15 | 14 | 13 | 12 | 11  | 10  | 9   | 8
-&nbsp;  | &nbsp;      | &nbsp;  |  &nbsp;     | 14 | 13 | 12 | 11 | 10  | 9   | 8   | 7
-&nbsp;  | &nbsp;      | &nbsp;  |  3+1 to 4   | 13 | 12 | 11 | 10 | 9   | 8   | 7   | 6
-7-9     | 11-15       | 9-12    |  4+1 to 6   | 12 | 11 | 10 | 9  | 8   | 7   | 6   | 5
-&nbsp;  | &nbsp;      | &nbsp;  |  6+1 to 8+1 | 11 | 10 | 9  | 8  | 7   | 6   | 5   | 4
-10-12   | 16-20       | 13-16   |  &nbsp;     | 10 | 9  | 8  | 7  | 6   | 5   | 4   | 3
-&nbsp;  | &nbsp;      | &nbsp;  |  9 to 10+   | 9  | 8  | 7  | 6  | 5   | 4   | 3   | 2
-13-15   | 21-25       | 17-20   |  &nbsp;     | 8  | 7  | 6  | 5  | 4   | 3   | 2   | 1
-&nbsp;  | &nbsp;      | &nbsp;  |  11+        | 7  | 6  | 5  | 4  | 3   | 2   | 1   | 1
-
+\* Normal man
 
 #### Monsters Attacking
 
-Because this is broken use the following:
+Monster           | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
+------------------|----|----|----|----|-----|-----|-----|---
+ up to 1          | 17 | 16 | 15 | 14 | 13  | 12  | 11  | 10
+ 1+1              | 16 | 15 | 14 | 13 | 12  | 11  | 10  | 9
+ 2-3              | 15 | 14 | 13 | 12 | 11  | 10  | 9   | 8
+&nbsp;            | 14 | 13 | 12 | 11 | 10  | 9   | 8   | 7
+ 3+ to 4          | 13 | 12 | 11 | 10 | 9   | 8   | 7   | 6
+ 4+ to 6          | 12 | 11 | 10 | 9  | 8   | 7   | 6   | 5
+ 6+ to 8+         | 11 | 10 | 9  | 8  | 7   | 6   | 5   | 4
+&nbsp;            | 10 | 9  | 8  | 7  | 6   | 5   | 4   | 3
+ 9 to 10+         | 9  | 8  | 7  | 6  | 5   | 4   | 3   | 2
+&nbsp;            | 8  | 7  | 6  | 5  | 4   | 3   | 2   | 1
+ 11 and above     | 7  | 6  | 5  | 4  | 3   | 2   | 1   | 1
 
-Monster HD | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
------------|----|----|----|----|-----|-----|-----|---
-up to 1    | 17 | 16 | 15 | 14 | 13  | 12  | 11  | 10
-1+1        | 16 | 15 | 14 | 13 | 12  | 11  | 10  | 9
-2 to 3     | 15 | 14 | 13 | 12 | 11  | 10  | 9   | 8
-&nbsp;     | 14 | 13 | 12 | 11 | 10  | 9   | 8   | 7
-3+1 to 4   | 13 | 12 | 11 | 10 | 9   | 8   | 7   | 6
-4+1 to 6   | 12 | 11 | 10 | 9  | 8   | 7   | 6   | 5
-6+1 to 8+1 | 11 | 10 | 9  | 8  | 7   | 6   | 5   | 4
-&nbsp;     | 10 | 9  | 8  | 7  | 6   | 5   | 4   | 3
-9 to 10+   | 9  | 8  | 7  | 6  | 5   | 4   | 3   | 2
-&nbsp;     | 8  | 7  | 6  | 5  | 4   | 3   | 2   | 1
-11+        | 7  | 6  | 5  | 4  | 3   | 2   | 1   | 1
+### Saving throws
+
+#### Fighter
+
+Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/>Paralyzation | Stone | Dragon<br/>Breath | Staves &<br/>Spells
+------|-------------------------|-------------------------------------------------------------|-------|-------------------|--------------------
+0\*   |  13   |   14    |   15    |   16    |   17
+1     |  12   |   13    |   14    |   15    |   16
+2     |  12   |   13    |   14    |   15    |   16
+3     |  11   |   12    |   13    |   14    |   15
+4     |  10   |   11    |   12    |   13    |   14
+5     |  10   |   11    |   12    |   12    |   14
+6     |   9   |   10    |   11    |   12    |   13
+7     |   8   |    9    |   10    |   11    |   12 
+8     |   8   |    9    |   10    |   10    |   12 
+9     |   7   |    8    |    9    |    9    |   11
+10    |   6   |    7    |    8    |    8    |   10 
+11    |   6   |    7    |    7    |    7    |   10 
+12    |   5   |    6    |    7    |    7    |    9 
+13    |   4   |    5    |    6    |    6    |    8
+14    |   4   |    5    |    5    |    5    |    8
+15    |   3   |    4    |    5    |    5    |    7
+16    |   2   |    3    |    4    |    4    |    6
+
+\* Normal man.
+
+#### Magic-User/Thief
+
+Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/>Paralyzation | Stone | Dragon<br/>Breath | Staves &<br/>Spells
+------|-------------------------|-------------------------------------------------------------|-------|-------------------|--------------------
+1     |  13   |   14    |   13    |   16    |   15
+2     |  13   |   14    |   13    |   16    |   14
+3     |  13   |   14    |   13    |   16    |   14
+4     |  12   |   13    |   12    |   15    |   13
+5     |  12   |   13    |   12    |   15    |   13
+6     |  11   |   12    |   11    |   14    |   12
+7     |  10   |   11    |   10    |   13    |   11 
+8     |  10   |   11    |   10    |   13    |   11 
+9     |   9   |   10    |    9    |   12    |   10
+10    |   9   |   10    |    9    |   12    |    9 
+11    |   8   |    9    |    8    |   11    |    8 
+12    |   7   |    8    |    7    |   10    |    7 
+13    |   7   |    8    |    7    |   10    |    6
+14    |   6   |    7    |    6    |    9    |    5
+15    |   6   |    7    |    6    |    9    |    4
+16    |   5   |    6    |    5    |    8    |    3
+
+#### Cleric
+
+Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/>Paralyzation | Stone | Dragon<br/>Breath | Staves &<br/>Spells
+------|-------------------------|-------------------------------------------------------------|-------|-------------------|--------------------
+1     |  11   |   12    |   14    |   16    |   15
+2     |  11   |   12    |   14    |   16    |   15
+3     |  10   |   11    |   13    |   15    |   14
+4     |  10   |   11    |   13    |   15    |   13
+5     |   9   |   10    |   12    |   14    |   12
+6     |   9   |   10    |   12    |   14    |   12
+7     |   8   |    9    |   11    |   13    |   11 
+8     |   7   |    8    |   10    |   12    |   10 
+9     |   6   |    7    |    9    |   11    |    9
+10    |   6   |    7    |    9    |   11    |    9 
+11    |   5   |    6    |    8    |   10    |    8 
+12    |   4   |    5    |    8    |    9    |    8 
+13    |   3   |    5    |    7    |    8    |    7
+14    |   3   |    5    |    7    |    8    |    7
+15    |   2   |    4    |    6    |    7    |    6
+16    |   2   |    4    |    6    |    7    |    6
 
 # Generate a character
 
@@ -203,7 +192,7 @@ Clerics can increase their Wisdom by 1 point by lowering their Intelligence by 2
 
 ## Hit points
 
-Roll for hit points (HP).
+PCs get maximum HP at 1st level.
 
 ## Alignment
 
@@ -236,7 +225,7 @@ Intelligence is the prime requisite for Magic-Users.
 
 Each character can speak their "common" language.
 
-For each point of Intelligence above 10, a character can speak an additional language.
+For each two points of Intelligence above 10, a character can speak an additional language.
 
 ## Wisdom
 
@@ -460,10 +449,30 @@ To increase beyond name level, XP required equals that to get to name level.
 
 The exception is Clerics — each level after name level requires 200k XP.
 
-# References
+## Equipment and weapons
 
-* https://gelatinouscubism.wordpress.com/2022/06/05/using-chainmail-with-odd/
-* http://deltasdnd.blogspot.com/2010/09/surprise.html
-* https://www.geekeratimedia.com/2019/12/initiative-in-od-remember-when-d-combat.html
-* https://www.donjonlands.com/2021/07/chainmail-odd-and-the-one-minute-combat-round.html
-* https://forums.somethingawful.com/showthread.php?threadid=3858338
+### Weapons
+
+All weapons do 1d6 damage.
+
+#### Melee
+
+Initiative<br/>modifier | Weapon            | Cost  | Weight  | Handedness
+------|-------------------|-------|---------|------------
+-1    | Dagger            | 3     | 20      | 1
+-1    | Hand Axe          | 3     | 50      | 1
+0     | Mace              | 5     | 50      | 1
+0     | Sword             | 10    | 50      | 1
+0     | Battle Axe        | 7     | 100     | 1
+1     | Battle Axe        | 7     | 100     | 2
+2     | Spear             | 1     | 50      | 1
+2     | 2-Handed Sword    | 15    | 150     | 2
+3     | Mounted Lance     | 4     | 100     | 1
+3     | Pike              | 5     | 150     | 2
+
+On the first round of melee when blows are struck, or in an open space, longer weapons are more likely to strike first — add the weapon's "initiative modifier" to the initiative roll.
+
+On subsequent rounds of melee, shorter weapons are more likely to strike first — subtract the weapon's "initiative modifier" from the initiative roll.
+
+Monsters can be given an initiative modifier if their method of attack is particularly "short" or "long".
+
