@@ -9,7 +9,7 @@ First determine surprise.
 
 Surprised on a roll of 1 or 2.
 
-If one side gains surprise, they are within 1-3" and can take a full round of actions — the surprised side cannot act. Surprising side gain initiative on the next round.
+If one side gains surprise, they are within 1-3" and can take a full round of actions — the surprised side cannot act. Surprising side gains initiative on the next round.
 
 ### Turn order
 
@@ -40,17 +40,17 @@ F     | MU    | C/T   | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
 4     | 6-7   | 5-6   | 15 | 14 | 13 | 12 | 11  | 10  | 9   | 8
 5     | 8-9   | 7     | 14 | 13 | 12 | 11 | 10  | 9   | 8   | 7
 6     | 10-11 | 8-9   | 13 | 12 | 11 | 10 | 9   | 8   | 7   | 6
-7     | 12-13 | 10-11 | 12 | 11 | 10 | 9  | 8   | 7   | 6   | 5
-8-9   | 14-15 | 12-13 | 11 | 10 | 9  | 8  | 7   | 6   | 5   | 4
+7-8   | 12-13 | 10-11 | 12 | 11 | 10 | 9  | 8   | 7   | 6   | 5
+9     | 14-15 | 12-13 | 11 | 10 | 9  | 8  | 7   | 6   | 5   | 4
 10    | 16-18 | 14    | 10 | 9  | 8  | 7  | 6   | 5   | 4   | 3
-11-12 | 19-20 | 15-16 | 9  | 8  | 7  | 6  | 5   | 4   | 3   | 2
-13    | 21-22 | 17-18 | 8  | 7  | 6  | 5  | 4   | 3   | 2   | 1
+11    | 19-20 | 15-16 | 9  | 8  | 7  | 6  | 5   | 4   | 3   | 2
+12-13 | 21-22 | 17-18 | 8  | 7  | 6  | 5  | 4   | 3   | 2   | 1
 14    | 23-24 | 19-20 | 7  | 6  | 5  | 4  | 3   | 2   | 1   | 1
 15    | 25-26 | 21    | 6  | 5  | 4  | 3  | 2   | 1   | 1   | 1
 16    | 27-28 | 22-23 | 5  | 4  | 3  | 2  | 1   | 1   | 1   | 1
 17-18 | 29-30 | 24-25 | 4  | 3  | 2  | 1  | 1   | 1   | 1   | 1
 19    | 31-34 | 26-27 | 3  | 2  | 1  | 1  | 1   | 1   | 1   | 1
-20-21 | 35-36 | 28    | 2  | 1  | 1  | 1  | 1   | 1   | 1   | 1
+20    | 35-36 | 28    | 2  | 1  | 1  | 1  | 1   | 1   | 1   | 1
 
 \* Normal man
 
@@ -58,7 +58,8 @@ F     | MU    | C/T   | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
 
 Monster           | 2  | 3  | 4  | 5  | 6   | 7   | 8   | 9
 ------------------|----|----|----|----|-----|-----|-----|---
- up to 1          | 17 | 16 | 15 | 14 | 13  | 12  | 11  | 10
+ less than 1      | 18 | 17 | 16 | 15 | 14  | 13  | 12  | 11
+ 1                | 17 | 16 | 15 | 14 | 13  | 12  | 11  | 10
  1+1              | 16 | 15 | 14 | 13 | 12  | 11  | 10  | 9
  2-3              | 15 | 14 | 13 | 12 | 11  | 10  | 9   | 8
 &nbsp;            | 14 | 13 | 12 | 11 | 10  | 9   | 8   | 7
@@ -252,11 +253,6 @@ Score | Missile fire to-hit
 ---|---
 8- | -1
 13+ | +1
-
-Score | Initiative
----|---
-6- | -1
-15+ | +1
 
 ## Charisma
 
@@ -457,22 +453,19 @@ All weapons do 1d6 damage.
 
 #### Melee
 
-Initiative<br/>modifier | Weapon            | Cost  | Weight  | Handedness
-------|-------------------|-------|---------|------------
--1    | Dagger            | 3     | 20      | 1
--1    | Hand Axe          | 3     | 50      | 1
-0     | Mace              | 5     | 50      | 1
-0     | Sword             | 10    | 50      | 1
-0     | Battle Axe        | 7     | 100     | 1
-1     | Battle Axe        | 7     | 100     | 2
-2     | Spear             | 1     | 50      | 1
-2     | 2-Handed Sword    | 15    | 150     | 2
-3     | Mounted Lance     | 4     | 100     | 1
-3     | Pike              | 5     | 150     | 2
-
-On the first round of melee when blows are struck, or in an open space, longer weapons are more likely to strike first — add the weapon's "initiative modifier" to the initiative roll.
-
-On subsequent rounds of melee, shorter weapons are more likely to strike first — subtract the weapon's "initiative modifier" from the initiative roll.
-
-Monsters can be given an initiative modifier if their method of attack is particularly "short" or "long".
+Weapon            | Cost  | Weight  | Handedness
+------------------|-------|---------|------------
+Dagger            | 3     | 20      | 1
+Hand Axe          | 3     | 50      | 1
+Mace              | 5     | 50      | 1
+Sword             | 10    | 50      | 1
+Battle Axe        | 7     | 100     | 1 or 2
+Morning Star      | 6     | 100     | 1
+Flail             | 8     | 100     | 1
+Spear             | 1     | 50      | 1
+Pole Arms         | 7     | 150     | 2
+Halberd           | 7     | 150     | 2
+2-Handed Sword    | 15    | 150     | 2
+Mounted Lance     | 4     | 100     | 1
+Pike              | 5     | 150     | 2
 
