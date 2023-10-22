@@ -7,9 +7,24 @@
 
 First determine surprise.
 
-Surprised on a roll of 1 or 2.
+Surprised on a roll of 1 or 2. Number of rounds suprised = number on the die.
 
-If one side gains surprise, they are within 1-3" and can take a full round of actions — the surprised side cannot act. Surprising side gains initiative on the next round.
+If one side gains surprise, they are within 1-3" and can take a full round of actions — the surprised side cannot act.
+
+### Initiative
+
+Initiative is determined by the DM, or if necessary, by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains intiative.
+
+Examples where an initiative roll isn't needed:
+
+* Missile fire and spells always go before enemy closes distance for melee
+* Longer weapons strike before shorter ones when joining melee
+* Shorter weapons strike before longer ones in melee or tight spaces
+
+Examples where an initiative roll is needed:
+
+* Who strikes first in melee
+* Missile fire versus spell casting
 
 ### Turn order
 
@@ -27,6 +42,8 @@ These take a full turn:
 2. Attack (move up to 10' before attacking)
 3. Missile
 4. Spell
+
+Deliberately no charging.
 
 ### Attack Matrices
 
@@ -139,6 +156,10 @@ Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/
 15    |   2   |    4    |    6    |    7    |    6
 16    |   2   |    4    |    6    |    7    |    6
 
+### Magic weapons and armour
+
+In non-fantastic combat, magical armour reduces number of attacks, and magical weapons increases it.
+
 # Generate a character
 
 ## Abilities
@@ -220,6 +241,8 @@ Prime Attribute<br/>Score | XP adjustment
 
 Strength is the prime requisite for Fighters.
 
+Strength of 15 or higher gives Fighters a +1 to hit and +1 damage bonus.
+
 ## Intelligence
 
 Intelligence is the prime requisite for Magic-Users.
@@ -228,9 +251,13 @@ Each character can speak their "common" language.
 
 For each two points of Intelligence above 10, a character can speak an additional language.
 
+Intelligence of 15 or higher gives MUs a bonus first level spell.
+
 ## Wisdom
 
 Wisdom is the prime requisite for Clerics.
+
+Wisdom of 15 or higher gives Clerics a bonus first level spell.
 
 ## Constitution
 
@@ -254,6 +281,15 @@ Score | Missile fire to-hit
 8- | -1
 13+ | +1
 
+Score | Initiative
+---|---
+6- | -1
+15+ | +1
+
+Initiative adjustment is only used on tied initiative rolls.
+
+Dexterity of 15 or higher makes Fighters harder to hit by applying a -1 to-hit penalty to attacks.
+
 ## Charisma
 
 Score | Maximum<br/>Hirelings | Loyalty Base
@@ -265,6 +301,8 @@ Score | Maximum<br/>Hirelings | Loyalty Base
 13-15 | 5 | +1
 16-17 | 6 | +2
 18 | 12 | +3
+
+Charisma of 15 or higher gives a +1 bonus to reaction checks.
 
 ### Loyalty
 
@@ -450,6 +488,8 @@ The exception is Clerics — each level after name level requires 200k XP.
 ### Weapons
 
 All weapons do 1d6 damage.
+
+Battle Axe (2H) and 2-Handed Sword do 1d6+1 damage.
 
 #### Melee
 
