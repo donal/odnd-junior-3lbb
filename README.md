@@ -23,7 +23,7 @@ Examples where an initiative roll isn't needed:
 
 Examples where an initiative roll is needed:
 
-* Who strikes first in melee
+* Who strikes first in melee (when weapons are of a similar length)
 * Missile fire versus spell casting
 
 ### Turn order
@@ -39,9 +39,10 @@ Examples where an initiative roll is needed:
 These take a full turn:
 
 1. Move
-2. Attack (move up to 10' before attacking)
-3. Missile
-4. Spell
+2. Attack while in melee
+3. Fire a missile
+3. Move (move up to 1/3 normal movement) and make a melee attack
+4. Cast a spell
 
 Deliberately no charging.
 
