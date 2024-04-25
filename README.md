@@ -7,24 +7,13 @@
 
 First determine surprise.
 
-Surprised on a roll of 1 or 2. Number of rounds suprised = number on the die.
+Surprised on a roll of 1 or 2.
 
 If one side gains surprise, they are within 1-3" and can take a full round of actions — the surprised side cannot act.
 
 ### Initiative
 
-Initiative is determined by the DM, or if necessary, by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains intiative.
-
-Examples where an initiative roll isn't needed:
-
-* Missile fire and spells always go before enemy closes distance for melee
-* Longer weapons strike before shorter ones when joining melee
-* Shorter weapons strike before longer ones in melee or tight spaces
-
-Examples where an initiative roll is needed:
-
-* Who strikes first in melee (when weapons are of a similar length)
-* Missile fire versus spell casting
+Initiative is determined by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains initiative.
 
 ### Turn order
 
@@ -41,10 +30,7 @@ These take a full turn:
 1. Move
 2. Attack while in melee
 3. Fire a missile
-3. Move (move up to 1/3 normal movement) and make a melee attack
 4. Cast a spell
-
-Deliberately no charging.
 
 ### Attack Matrices
 
@@ -157,10 +143,6 @@ Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/
 15    |   2   |    4    |    6    |    7    |    6
 16    |   2   |    4    |    6    |    7    |    6
 
-### Magic weapons and armour
-
-In non-fantastic combat, magical armour reduces number of attacks, and magical weapons increases it.
-
 # Generate a character
 
 ## Abilities
@@ -225,7 +207,7 @@ There are three alignments: Neutral, Law and Chaos.
 
 Roll 3d6 x 10 for the number of Gold Pieces (GP) you begin with.
 
-Use this money to buy [starting weapons, armour and equipment](#Equipment).
+Use this money to buy [starting weapons, armour and equipment](#equipment-and-weapons).
 
 # Abilities
 
@@ -242,8 +224,6 @@ Prime Attribute<br/>Score | XP adjustment
 
 Strength is the prime requisite for Fighters.
 
-Strength of 15 or higher gives Fighters a +1 to hit and +1 damage bonus.
-
 ## Intelligence
 
 Intelligence is the prime requisite for Magic-Users.
@@ -252,13 +232,9 @@ Each character can speak their "common" language.
 
 For each two points of Intelligence above 10, a character can speak an additional language.
 
-Intelligence of 15 or higher gives MUs a bonus first level spell.
-
 ## Wisdom
 
 Wisdom is the prime requisite for Clerics.
-
-Wisdom of 15 or higher gives Clerics a bonus first level spell.
 
 ## Constitution
 
@@ -277,19 +253,10 @@ Score | Adjustment
 
 ## Dexterity
 
-Score | Missile fire to-hit
----|---
-8- | -1
-13+ | +1
-
-Score | Initiative
----|---
-6- | -1
-15+ | +1
-
-Initiative adjustment is only used on tied initiative rolls.
-
-Dexterity of 15 or higher makes Fighters harder to hit by applying a -1 to-hit penalty to attacks.
+Score | Missile fire to-hit | Initiative
+---|---|---
+8- | -1     | -1
+13+ | +1    | +1
 
 ## Charisma
 
@@ -302,8 +269,6 @@ Score | Maximum<br/>Hirelings | Loyalty Base
 13-15 | 5 | +1
 16-17 | 6 | +2
 18 | 12 | +3
-
-Charisma of 15 or higher gives a +1 bonus to reaction checks.
 
 ### Loyalty
 
@@ -490,7 +455,7 @@ The exception is Clerics — each level after name level requires 200k XP.
 
 All weapons do 1d6 damage.
 
-Battle Axe (2H) and 2-Handed Sword do 1d6+1 damage.
+A Fighter using a 2-Handed weapon (Battle Axe or 2-Handed Sword) gets +1 to-hit. 2-Handed weapons need more room to wield — 5' either side.
 
 #### Melee
 
@@ -509,4 +474,3 @@ Halberd           | 7     | 150     | 2
 2-Handed Sword    | 15    | 150     | 2
 Mounted Lance     | 4     | 100     | 1
 Pike              | 5     | 150     | 2
-
