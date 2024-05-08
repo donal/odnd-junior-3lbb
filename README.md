@@ -253,10 +253,10 @@ Score | Adjustment
 
 ## Dexterity
 
-Score | Missile fire to-hit | Initiative
----|---|---
-8- | -1     | -1
-13+ | +1    | +1
+Score | Missile fire to-hit
+---|---
+8- | -1
+13+ | +1
 
 Score | Initiative
 ---|---
@@ -457,11 +457,7 @@ The exception is Clerics — each level after name level requires 200k XP.
 
 ### Weapons
 
-All weapons do 1d6 damage.
-
-A Fighter using a 2-Handed weapon (Battle Axe or 2-Handed Sword) gets +1 to-hit. 2-Handed weapons need more room to wield — 5' either side.
-
-A Fighter using dual weapons rolls 2D6 for damage and takes the largest value.
+Weapons do variable damage. See [weapons vs AC](weapons-vs-ac.md).
 
 #### Melee
 
@@ -509,7 +505,7 @@ Sling           | 4"    | 8"      | 12"
 Thrown spear    | 2"    | 4"      | 6"
 Thrown\*        | -     | 3"      | -
 
-\* Thrown dagger or axe.
+\* Thrown dagger or hand axe.
 
 ### Equipment
 
