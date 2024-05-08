@@ -455,27 +455,59 @@ The exception is Clerics — each level after name level requires 200k XP.
 
 ## Equipment and weapons
 
+### Armour
+
+Armour                  | Category      | AC
+------------------------|---------------|------
+None                    | Unarmoured    | 9
+Shield                  | Light         | 7
+Leather                 | Light         | 7
+Leather + Shield        | Light         | 6
+Chain mail              | Heavy         | 5
+Chain mail + Shield     | Heavy         | 4
+Plate mail              | Armoured      | 3
+Plate mail + Shield     | Armoured      | 2
+
 ### Weapons
 
-Weapons do variable damage. See [weapons vs AC](weapons-vs-ac.md).
+* missiles and spears get -1 to-hit against opponents with shields
+* flails, battle axes (2H) and 2H swords get +1 against opponents with shields (negating the shield)
 
 #### Melee
 
-Weapon            | Cost  | Weight  | Handedness
-------------------|-------|---------|------------
-Dagger            | 3     | 20      | 1
-Hand Axe          | 3     | 50      | 1
-Mace              | 5     | 50      | 1
-Sword             | 10    | 50      | 1
-Battle Axe        | 7     | 100     | 1 or 2
-Morning Star      | 6     | 100     | 1
-Flail             | 8     | 100     | 1
-Spear             | 1     | 50      | 1
-Pole Arms         | 7     | 150     | 2
-Halberd           | 7     | 150     | 2
-2-Handed Sword    | 15    | 150     | 2
-Mounted Lance     | 4     | 100     | 1
-Pike              | 5     | 150     | 2
+Weapon            | Cost  | Weight  | Handedness    | Damage
+------------------|-------|---------|---------------|-------
+Dagger            | 3     | 20      | 1             | 1-4
+Hand Axe          | 3     | 50      | 1             | 1-6
+Mace              | 5     | 50      | 1             | 1-6
+Sword             | 10    | 50      | 1             | 1-8
+Battle Axe        | 7     | 100     | 1 or 2        | 1-8/2-8
+Morning Star      | 6     | 100     | 2             | 1-8
+Flail             | 8     | 100     | 1             | 1-8
+Spear             | 1     | 50      | 1             | 1-6
+Pole Arms         | 7     | 150     | 2             | 1-8
+Halberd           | 7     | 150     | 2             | 1-10
+2-Handed Sword    | 15    | 150     | 2             | 1-10
+Mounted Lance     | 4     | 100     | 1             | 1-8
+Pike              | 5     | 150     | 2             | 1-8
+
+##### To-hit adjustment versus AC category
+
+Weapon                  | Armoured      | Heavy     | Light | Unarmoured
+------------------------|---------------|-----------|-------|---------
+Dagger                  | -2            |  0        |  0    | +2
+Hand Axe                |  0            | +1        |  0    |  0
+Mace, Hammer            | +2            | +1        |  0    |  0
+Sword                   |  0            |  0        |  0    | +2
+Battle Axe              | +1            | +1        |  0    |  0
+Morning Star            | +2            | +1        |  0    |  0
+Flail                   |  0            |  0        |  0    | +1
+Spear                   | -2            | -1        |  0    |  0
+Pole Arms               | TODO          | TODO      | TODO  | TODO
+Halberd                 | TODO          | TODO      | TODO  | TODO
+2-Handed Sword          |  0            |  0        |  0    | +2
+Mounted Lance           | TODO          | TODO      | TODO  | TODO
+Pike                    | TODO          | TODO      | TODO  | TODO
 
 #### Missile
 
@@ -492,6 +524,12 @@ Case of 30 quarrels   | 10    | 50
 Arrows, 20            | 5     | -
 Quarrels, 30          | 5     | -
 
+Weapon                  | Damage
+------------------------|---------
+Arrow                   | 1-6
+Quarrel                 | 1-6
+Stone                   | 1-4
+
 ##### Missile weapon ranges
 
 Weapon          | Short | Medium  | Long
@@ -506,6 +544,19 @@ Thrown spear    | 2"    | 4"      | 6"
 Thrown\*        | -     | 3"      | -
 
 \* Thrown dagger or hand axe.
+
+##### To-hit adjustment versus AC category
+
+Weapon                  | Armoured      | Heavy     | Light | Unarmoured
+------------------------|---------------|-----------|-------|---------
+Hand Axe, thrown        | -2            | -1        |  0    |  0
+Long bow                | -1            |  0        |  0    | +1
+Short bow               | -2            | -1        |  0    |  0
+Heavy crossbow          | -1            |  0        | +1    | +1
+Light crossbow          | -2            | -1        |  0    |  0
+Dagger, thrown          | -2            | -1        |  0    |  0
+Spear, thrown           | -2            | -1        |  0    |  0
+Sling                   | -2            | -2        | -1    | +1
 
 ### Equipment
 
