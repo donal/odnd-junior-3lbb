@@ -572,21 +572,6 @@ Dwarf     | +5%             | +15%              | -                     | -     
 Elf       | -               | -                 | -                     | +5%                       | +10%              | +15%                | -
 Halfling  | +10%            | +5%               | -                     | +5%                       | +10%              | +10%                | +1
 
-#### Thieving skill adjustments for armour
-
-Race      | Open<br/>locks  | Remove<br/>traps  | Climb sheer<br/>walls | Steal item-<br/>by stealth  | Move<br/>silently | Hide in<br/>shadows | Hear<br/>noise
-----------|-----------------|-------------------|-----------------------|-----------------------------|-------------------|---------------------|---------------
-None      | -               | -                 | +10%                  | +5%                         | +10%              | +5%                 | -
-Leather   | -               | -                 | -                     | -                           | -                 | -                   | -
-Chain\*   | -15%            | -15%              | -40%                  | -40%                        | -40%              | -30%                | -1
-Plate\*   | -40%            | -40%              | -99%                  | -75%                        | -80%              | -75%                | -3
-
-\* These are relevant for characters who have more than one class where the second class grants them the ability to wear armour heavier than leather.
-
-#### Thieving skill adjustments for Dexterity
-
-See [Thieving skill adjustments for Dexterity](abilities.md#thief-skills).
-
 ## XP and name levels
 
 To increase beyond name level, XP required equals that to get to name level.
