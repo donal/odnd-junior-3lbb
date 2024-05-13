@@ -9,6 +9,7 @@
 * damage done by weapon type
 * NO: to-hit adjustment for AC
 * attacks and damage by monster type
+* only use S/M weapon damage
 
 ## House rules
 
@@ -19,12 +20,12 @@
 * the battle axe is as 2H weapon
 * identify magic items with the Detect Magic spell
 * A human sized combatant can be attacked by at most 6 attackers. A large create can be attacked by at most 8.
-* Roll a 1d6 for surprise. If a side is surprised, they cannot act for the number of rounds on the die (1 or 2).
+* Roll a 1d6 for surprise. A side is surprised on a 1 or 2.
 * Adjust initiative based on Dexterity
 * To increase beyond name level, XP required equals that to get to name level. The exception is the Cleric — each level after name level requires 200k XP.
 * NO: modified to-hit adjustment for AC table
-* 2H sword does 1-8 damage against S/M opponents
-* AC 8 = leather, AC 7 = a shield, AC 6 = leather + shield
+* NO: 2H sword does 1-8 damage against S/M opponents
+* AC 7 = leather, AC 7 = a shield, AC 6 = leather + shield
 * Missile weapons are +1/0/-1 for S/M/L ranges (and should be at best M in the dungeon)
 
 ### Attack matrices

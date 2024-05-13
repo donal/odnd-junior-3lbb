@@ -13,7 +13,17 @@ If one side gains surprise, they are within 1-3" and can take a full round of ac
 
 ### Initiative
 
-Initiative is determined by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains initiative.
+Initiative is determined by the DM, or if necessary, by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains intiative.
+
+Examples where an initiative roll isn't needed:
+
+* Missile fire and spells always go before enemy closes distance for melee
+* Longer weapons strike before shorter ones when joining melee
+
+Examples where an initiative roll is needed:
+
+* Who strikes first in melee
+* Missile fire versus spell casting
 
 ### Turn order
 
@@ -30,7 +40,8 @@ These take a full turn:
 1. Move
 2. Attack while in melee
 3. Fire a missile
-4. Cast a spell
+4. Move (up to 1/3 normal movement) and make a melee attack
+5. Cast a spell
 
 ### Attack Matrices
 
@@ -88,12 +99,12 @@ Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/
 4     |  10   |   11    |   12    |   13    |   14
 5     |  10   |   11    |   12    |   12    |   14
 6     |   9   |   10    |   11    |   12    |   13
-7     |   8   |    9    |   10    |   11    |   12 
-8     |   8   |    9    |   10    |   10    |   12 
+7     |   8   |    9    |   10    |   11    |   12
+8     |   8   |    9    |   10    |   10    |   12
 9     |   7   |    8    |    9    |    9    |   11
-10    |   6   |    7    |    8    |    8    |   10 
-11    |   6   |    7    |    7    |    7    |   10 
-12    |   5   |    6    |    7    |    7    |    9 
+10    |   6   |    7    |    8    |    8    |   10
+11    |   6   |    7    |    7    |    7    |   10
+12    |   5   |    6    |    7    |    7    |    9
 13    |   4   |    5    |    6    |    6    |    8
 14    |   4   |    5    |    5    |    5    |    8
 15    |   3   |    4    |    5    |    5    |    7
@@ -111,12 +122,12 @@ Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/
 4     |  12   |   13    |   12    |   15    |   13
 5     |  12   |   13    |   12    |   15    |   13
 6     |  11   |   12    |   11    |   14    |   12
-7     |  10   |   11    |   10    |   13    |   11 
-8     |  10   |   11    |   10    |   13    |   11 
+7     |  10   |   11    |   10    |   13    |   11
+8     |  10   |   11    |   10    |   13    |   11
 9     |   9   |   10    |    9    |   12    |   10
-10    |   9   |   10    |    9    |   12    |    9 
-11    |   8   |    9    |    8    |   11    |    8 
-12    |   7   |    8    |    7    |   10    |    7 
+10    |   9   |   10    |    9    |   12    |    9
+11    |   8   |    9    |    8    |   11    |    8
+12    |   7   |    8    |    7    |   10    |    7
 13    |   7   |    8    |    7    |   10    |    6
 14    |   6   |    7    |    6    |    9    |    5
 15    |   6   |    7    |    6    |    9    |    4
@@ -132,12 +143,12 @@ Level | Death Ray<br/>or Poison | All Wands -<br/>Including<br/>Polymorph or<br/
 4     |  10   |   11    |   13    |   15    |   13
 5     |   9   |   10    |   12    |   14    |   12
 6     |   9   |   10    |   12    |   14    |   12
-7     |   8   |    9    |   11    |   13    |   11 
-8     |   7   |    8    |   10    |   12    |   10 
+7     |   8   |    9    |   11    |   13    |   11
+8     |   7   |    8    |   10    |   12    |   10
 9     |   6   |    7    |    9    |   11    |    9
-10    |   6   |    7    |    9    |   11    |    9 
-11    |   5   |    6    |    8    |   10    |    8 
-12    |   4   |    5    |    8    |    9    |    8 
+10    |   6   |    7    |    9    |   11    |    9
+11    |   5   |    6    |    8    |   10    |    8
+12    |   4   |    5    |    8    |    9    |    8
 13    |   3   |    5    |    7    |    8    |    7
 14    |   3   |    5    |    7    |    8    |    7
 15    |   2   |    4    |    6    |    7    |    6
@@ -172,6 +183,7 @@ Choose a class:
 * Fighter
 * Magic-User
 * Cleric
+* Thief (optional)
 
 ### Spells
 
@@ -181,7 +193,7 @@ Clerics can't cast spells until 2nd level, but when they do, they can choose fro
 
 ## Modify abilities
 
-Only prime requisite abilities (Strength for Fighters, Intelligence for Magic-Users and Wisdom for Clerics) may be modified.
+Only prime requisite abilities (Strength for Fighters, Intelligence for Magic-Users, Wisdom for Clerics and Dexterity for Thieves) may be modified.
 
 In no case may an ability be lowered to less than 9.
 
@@ -194,6 +206,8 @@ Magic-Users can increase their Intelligence by 1 point by lowering their Wisdom 
 Clerics can increase their Wisdom by 1 point by lowering their Strength by 3 points.
 
 Clerics can increase their Wisdom by 1 point by lowering their Intelligence by 2 points.
+
+Thieves can increase their Dexterity by 1 point by lowering their Intelligence by 2 points and their Wisdom by 1 point.
 
 ## Hit points
 
@@ -224,6 +238,8 @@ Prime Attribute<br/>Score | XP adjustment
 
 Strength is the prime requisite for Fighters.
 
+A Strength of 15 or higher gives Fighters a +1 to hit and +1 damage bonus.
+
 ## Intelligence
 
 Intelligence is the prime requisite for Magic-Users.
@@ -232,9 +248,13 @@ Each character can speak their "common" language.
 
 For each two points of Intelligence above 10, a character can speak an additional language.
 
+An Intelligence of 15 or higher gives MUs a bonus first level spell.
+
 ## Wisdom
 
 Wisdom is the prime requisite for Clerics.
+
+A Wisdom of 15 or higher gives Clerics a bonus first level spell.
 
 ## Constitution
 
@@ -253,15 +273,17 @@ Score | Adjustment
 
 ## Dexterity
 
+Dexterity is the prime requisite for Thieves.
+
 Score | Missile fire to-hit
 ---|---
 8- | -1
 13+ | +1
 
-Score | Initiative
----|---
-6- | -1
-15+ | +1
+Score | Initiative | Fighter parry
+---|---|---
+6- | -1     | opponents get +1 to-hit
+15+ | +1    | opponents get -1 to-hit
 
 ## Charisma
 
@@ -274,6 +296,8 @@ Score | Maximum<br/>Hirelings | Loyalty Base
 13-15 | 5 | +1
 16-17 | 6 | +2
 18 | 12 | +3
+
+A Charisma of 15 or higher gives a +1 bonus to reaction checks.
 
 ### Loyalty
 
@@ -340,50 +364,50 @@ A PC should not increase more than 1 level per adventure.
 
 ## Fighter
 
-Level | Title         | XP      | HP<br/>per level | HP<br/>total
-------|---------------|---------|-----------------|--------------
-1     | Veteran       | 0       | d6 + 1          | 1d6 + 1
-2     | Warrior       | 2000    | d6 + 1          | 2d6 + 2
-3     | Swardsman     | 4000    | d6 + 1          | 3d6 + 3
-4     | Hero          | 8000    | d6 + 1          | 4d6 + 4
-5     | Swashbuckler  | 16000   | d6 + 1          | 5d6 + 5
-6     | Myrmidon      | 32000   | d6 + 1          | 6d6 + 6
-7     | Champion      | 64000   | d6 + 1          | 7d6 + 7
-8     | Super Hero    | 120000  | d6 + 1          | 8d6 + 8
-9\*   | Lord          | 240000  | d6 + 1          | 9d6 + 9
-10    | Lord          | 480000  |                 |
-11    | Lord          | 720000  | d6              | 10d6 + 9
-12    | Lord          | 960000  |                 |
-13    | Lord          | 1200000 | d6              | 11d6 + 9
-14    | Lord          | 1440000 |                 |
-15    | Lord          | 1680000 | d6              | 12d6 + 9
+Level | Title         | XP      | HP
+------|---------------|---------|--------
+1     | Veteran       | 0       | 1d8
+2     | Warrior       | 2000    | 2d8
+3     | Swordsman     | 4000    | 3d8
+4     | Hero          | 8000    | 4d8
+5     | Swashbuckler  | 16000   | 5d8
+6     | Myrmidon      | 32000   | 6d8
+7     | Champion      | 64000   | 7d8
+8     | Super Hero    | 120000  | 8d8
+9\*   | Lord          | 240000  | 9d8
+10    | Lord          | 480000  | 9d8 + 2
+11    | Lord          | 720000  | 9d8 + 4
+12    | Lord          | 960000  | 9d8 + 6
+13    | Lord          | 1200000 | 9d8 + 8
+14    | Lord          | 1440000 | 9d8 + 10
+15    | Lord          | 1680000 | 9d8 + 12
 
 \* Name level.
 
 ## Magic-User
 
-Level | Title         | XP      | HP<br/>per level | HP<br/>total
-------|---------------|---------|-----------------|--------------
-1     | Medium        | 0       | d6              | 1d6
-2     | Seer          | 2500    | + 1             | 1d6 + 1
-3     | Conjurer      | 5000    | d6              | 2d6 + 1
-4     | Theurgist     | 10000   | + 1             | 2d6 + 2
-5     | Thaumaturgist | 20000   | d6              | 3d6 + 2
-6     | Magician      | 35000   | + 1             | 3d6 + 3
-7     | Enchanter     | 50000   | d6              | 4d6 + 3
-8     | Warlock       | 75000   | + 1             | 4d6 + 4
-9     | Sorcerer      | 100000  | d6              | 5d6 + 4
-10    | Necromancer   | 200000  | + 1             | 5d6 + 5
-11\*  | Wizard        | 300000  | d6              | 6d6 + 5
-12    | Wizard        | 600000  |                 |
-13    | Wizard        | 900000  |                 |
-14    | Wizard        | 1200000 | d6              | 7d6 + 5
-15    | Wizard        | 1500000 |                 |
-18    | Wizard        | 1800000 |                 |
-19    | Wizard        | 2100000 | d6              | 8d6 + 5
-20    | Wizard        | 2400000 |                 |
-21    | Wizard        | 2700000 |                 |
-22    | Wizard        | 3000000 | d6              | 9d6 + 5
+Level | Title         | XP      | HP
+------|---------------|---------|--------
+1     | Medium        | 0       | 1d4
+2     | Seer          | 2500    | 2d4
+3     | Conjurer      | 5000    | 3d4
+4     | Theurgist     | 10000   | 4d4
+5     | Thaumaturgist | 20000   | 5d4
+6     | Magician      | 35000   | 6d4
+7     | Enchanter     | 50000   | 7d4
+8     | Warlock       | 75000   | 8d4
+9     | Sorcerer      | 100000  | 9d4
+10    | Necromancer   | 200000  | 10d4
+11\*  | Wizard        | 300000  | 11d4
+12    | Wizard        | 600000  | 11d4 + 1
+13    | Wizard        | 900000  | 11d4 + 2
+14    | Wizard        | 1200000 | 11d4 + 3
+15    | Wizard        | 1500000 | 11d4 + 4
+18    | Wizard        | 1800000 | 11d4 + 5
+19    | Wizard        | 2100000 | 11d4 + 6
+20    | Wizard        | 2400000 | 11d4 + 7
+21    | Wizard        | 2700000 | 11d4 + 8
+22    | Wizard        | 3000000 | 11d4 + 9
 
 \* Name level.
 
@@ -410,25 +434,25 @@ Level | 1  | 2  | 3  | 4  | 5  | 6
 
 ## Cleric
 
-Level | Title         | XP      | HP<br/>per level | HP<br/>total
-------|---------------|---------|------------------|-------------
-1     | Acolyte       | 0       | d6      | 1d6
-2     | Adept         | 1500    | d6      | 2d6
-3     | Priest        | 3000    | d6      | 3d6
-4     | Vicar         | 6000    | d6      | 4d6
-5     | Curate        | 12000   | d6      | 5d6
-6     | Bishop        | 25000   | d6      | 6d6
-7     | Lama          | 50000   | d6      | 7d6
-8\*   | Patriarch     | 100000  | d6      | 8d6
-9     | Patriarch     | 300000  |         |
-10    | Patriarch     | 500000  |         |
-11    | Patriarch     | 700000  | d6      | 9d6
-12    | Patriarch     | 900000  |         |
-13    | Patriarch     | 1100000 |         |
-14    | Patriarch     | 1300000 | d6      | 10d6
-15    | Patriarch     | 1500000 |         |
-16    | Patriarch     | 1700000 |         |
-17    | Patriarch     | 1900000 | d6      | 11d6
+Level | Title         | XP      | HP
+------|---------------|---------|--------
+1     | Acolyte       | 0       | 1d6
+2     | Adept         | 1500    | 2d6
+3     | Priest        | 3000    | 3d6
+4     | Vicar         | 6000    | 4d6
+5     | Curate        | 12000   | 5d6
+6     | Bishop        | 25000   | 6d6
+7     | Lama          | 50000   | 7d6
+8\*   | Patriarch     | 100000  | 8d6
+9     | Patriarch     | 300000  | 8d6
+10    | Patriarch     | 500000  | 8d6 + 1
+11    | Patriarch     | 700000  | 8d6 + 1
+12    | Patriarch     | 900000  | 8d6 + 2
+13    | Patriarch     | 1100000 | 8d6 + 2
+14    | Patriarch     | 1300000 | 8d6 + 3
+15    | Patriarch     | 1500000 | 8d6 + 3
+16    | Patriarch     | 1700000 | 8d6 + 4
+17    | Patriarch     | 1900000 | 8d6 + 4
 
 \* Name level.
 
@@ -446,6 +470,122 @@ Level | 1  | 2  | 3  | 4  | 5
 10    | 3  | 3  | 3  | 3  | 3
 11    | 4  | 4  | 4  | 3  | 3
 12    | 5  | 5  | 5  | 4  | 4
+
+## Thief
+
+Level | Title         | XP      | HP
+------|---------------|---------|--------
+1     | Apprentice      | 0       | 1d4
+2     | Footpad         | 1200    | 2d4
+3     | Robber          | 2400    | 3d4
+4     | Burglar         | 4800    | 4d4
+5     | Cutpurse        | 9600    | 5d4
+6     | Sharper         | 20000   | 6d4
+7     | Pilferer        | 40000   | 7d4
+8     | Master Pilferer | 60000   | 8d4
+9     | Thief           | 90000   | 9d4
+10\*  | Master Thief    | 125000  | 10d4
+11    | Master Thief    | 250000  | 10d4
+12    | Master Thief    | 600000  | 10d4 + 1
+13    | Master Thief    | 900000  | 10d4 + 1
+14    | Master Thief    | 1200000 | 10d4 + 2
+
+\* Name level.
+
+Thieves can only wear leather armour and not use shields.
+
+Of magical weapons, Thieves can only wield magical swords or daggers.
+
+Thieves can strike silently from behind, giving them +4 to-hit and doing an extra damage for every 4 levels attained:
+
+Thief Level | Strike silently from behind damage multiplier
+------------|---
+1-4         | 2x
+5-8         | 3x
+9-12        | 4x
+13-16       | 5x
+
+### Thieving skills
+
+At 3rd level, Thieves can read most (80% chance) languages, for example treasure maps.
+
+At 9th level, Thieves can read and use magical (but not clerical) scrolls.
+
+Level     | Open locks  | Remove<br/>traps  | Climb sheer<br/>walls | Steal item<br/>by stealth | Move<br/>silently | Hide in<br/>shadows | Hear<br/>noise
+----------|-------------|-------------------|-----------------------|---------------------------|-------------------|---------------------|---------------
+1         | 15%         | 10%               | 87%                   | 20%                       | 20%               | 10%                 | 1-2
+2         | 20%         | 15%               | 88%                   | 25%                       | 25%               | 15%                 | 1-2
+3         | 25%         | 20%               | 89%                   | 30%                       | 30%               | 20%                 | 1-3
+4         | 35%         | 30%               | 90%                   | 35%                       | 35%               | 25%                 | 1-3
+5         | 40%         | 35%               | 91%                   | 45%                       | 45%               | 35%                 | 1-3
+6         | 45%         | 40%               | 92%                   | 55%                       | 55%               | 45%                 | 1-3
+7         | 55%         | 50%               | 93%                   | 60%                       | 60%               | 50%                 | 1-4
+8         | 65%         | 60%               | 94%                   | 65%                       | 65%               | 55%                 | 1-4
+9         | 75%         | 70%               | 95%                   | 75%                       | 75%               | 65%                 | 1-4
+10        | 85%         | 80%               | 96%                   | 85%                       | 85%               | 75%                 | 1-4
+11        | 95%         | 90%               | 97%                   | 95%                       | 95%               | 85%                 | 1-5
+12        | 100%        | 95%               | 98%                   | 100%                      | 100%              | 90%                 | 1-5
+13        | 100%        | 100%              | 99%                   | 100%                      | 100%              | 95%                 | 1-6
+14        | 100%        | 100%              | 100%                  | 100%                      | 100%              | 100%                | 1-6
+
+#### Open Locks
+
+Failure to open a lock indicates that the lock must be forced open - a very time consuming process.
+
+#### Remove traps
+
+Thieves automatically find traps.
+
+Failure to remove a trap activates it with regard the thief and any others within its range.
+
+#### Climb sheer walls
+
+Climb almost sheer surfaces, up or down, without equipment.
+
+#### Steal item by stealth
+
+Removing an item from its owner or their immediate vicinity has the same chance as moving with stealth.
+
+#### Move silently
+
+The likelihood of moving with absolute silence.
+
+#### Hide in shadows
+
+The chance to remain undetected when hiding or moving through shadows. Requires shadows and a lack of observation prior to hiding.
+
+#### Hear noise
+
+Listen for noises behind a closed door.
+
+#### Surprise
+
+If undetected by _either_ moving silently or hiding in shadows, the Thief as the opportunity to gain surprise on a 1-3 on 1d6.
+
+If undetected by _both_ moving silently and hiding in shadows, the Thief as the opportunity to gain surprise on a 1-4 on 1d6.
+
+#### Thieving skill adjustments to Dwarves, Elves and Halflings
+
+Race      | Open<br/>locks  | Remove<br/>traps  | Climb sheer<br/>walls | Steal item<br/>by stealth | Move<br/>silently | Hide in<br/>shadows | Hear<br/>noise
+----------|-----------------|-------------------|-----------------------|---------------------------|-------------------|---------------------|---------------
+Dwarf     | +5%             | +15%              | -                     | -                         | +5%               | +5%                 | -
+Elf       | -               | -                 | -                     | +5%                       | +10%              | +15%                | -
+Halfling  | +10%            | +5%               | -                     | +5%                       | +10%              | +10%                | +1
+
+#### Thieving skill adjustments for armour
+
+Race      | Open<br/>locks  | Remove<br/>traps  | Climb sheer<br/>walls | Steal item-<br/>by stealth  | Move<br/>silently | Hide in<br/>shadows | Hear<br/>noise
+----------|-----------------|-------------------|-----------------------|-----------------------------|-------------------|---------------------|---------------
+None      | -               | -                 | +10%                  | +5%                         | +10%              | +5%                 | -
+Leather   | -               | -                 | -                     | -                           | -                 | -                   | -
+Chain\*   | -15%            | -15%              | -40%                  | -40%                        | -40%              | -30%                | -1
+Plate\*   | -40%            | -40%              | -99%                  | -75%                        | -80%              | -75%                | -3
+
+\* These are relevant for characters who have more than one class where the second class grants them the ability to wear armour heavier than leather.
+
+#### Thieving skill adjustments for Dexterity
+
+See [Thieving skill adjustments for Dexterity](abilities.md#thief-skills).
 
 ## XP and name levels
 
