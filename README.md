@@ -247,11 +247,11 @@ A Strength of 15 or higher gives Fighters a +1 to hit and +1 damage bonus.
 
 Intelligence is the prime requisite for Magic-Users.
 
+An Intelligence of 15 or higher gives MUs a bonus first level spell.
+
 Each character can speak their "common" language.
 
 For each two points of Intelligence above 10, a character can speak an additional language.
-
-An Intelligence of 15 or higher gives MUs a bonus first level spell.
 
 ## Wisdom
 
