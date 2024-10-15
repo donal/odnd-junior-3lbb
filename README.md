@@ -13,16 +13,19 @@ If one side gains surprise, they are within 1-3" and can take a full round of ac
 
 ### Initiative
 
-Initiative is determined by the DM, or if necessary, by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains intiative.
+Initiative is determined by the DM, or if necessary, by each side (or each group of combatants) rolling a 1d6. The side with the higher roll gains initiative.
+
+Initiative may be adjusted by Dexterity.
 
 Examples where an initiative roll isn't needed:
 
 * Missile fire and spells always go before enemy closes distance for melee
-* Longer weapons strike before shorter ones when joining melee
+* Longer weapons (those with a higher Class) strike before shorter ones when joining melee
+* Shorter weapons (those with a lower Class) strike before shorter ones when in melee
 
 Examples where an initiative roll is needed:
 
-* Who strikes first in melee
+* Who strikes first in melee with monsters that don't use weapons
 * Missile fire versus spell casting
 
 ### Turn order
@@ -280,10 +283,12 @@ Score | Missile fire to-hit
 8- | -1
 13+ | +1
 
-Score | Initiative | Fighter parry
+Score | Initiative | Fighter parry/dodge
 ---|---|---
-6- | -1     | opponents get +1 to-hit
+6- | -1     | -
 15+ | +1    | opponents get -1 to-hit
+
+Parry/dodge is available to Fighters only and applies to all opponents.
 
 ## Charisma
 
@@ -596,43 +601,25 @@ Plate mail + Shield     | Armoured      | 2
 ### Weapons
 
 * missiles and spears get -1 to-hit against opponents with shields
-* flails, battle axes (2H) and 2H swords get +1 against opponents with shields (negating the shield)
+* flails, battle axes (2H) and 2H swords get +1 to-hit against opponents with shields (negating the shield)
 
 #### Melee
 
-Weapon            | Cost  | Weight  | Handedness    | Damage
-------------------|-------|---------|---------------|-------
-Dagger            | 3     | 20      | 1             | 1-4
-Hand Axe          | 3     | 50      | 1             | 1-6
-Mace              | 5     | 50      | 1             | 1-6
-Sword             | 10    | 50      | 1             | 1-8
-Battle Axe        | 7     | 100     | 1 or 2        | 1-8/2-8
-Morning Star      | 6     | 100     | 2             | 1-8
-Flail             | 8     | 100     | 1             | 1-8
-Spear             | 1     | 50      | 1             | 1-6
-Pole Arms         | 7     | 150     | 2             | 1-8
-Halberd           | 7     | 150     | 2             | 1-10
-2-Handed Sword    | 15    | 150     | 2             | 1-10
-Mounted Lance     | 4     | 100     | 1             | 1-8
-Pike              | 5     | 150     | 2             | 1-8
-
-##### To-hit adjustment versus AC category
-
-Weapon                  | Armoured      | Heavy     | Light | Unarmoured
-------------------------|---------------|-----------|-------|---------
-Dagger                  | -2            |  0        |  0    | +2
-Hand Axe                |  0            | +1        |  0    |  0
-Mace, Hammer            | +2            | +1        |  0    |  0
-Sword                   |  0            |  0        |  0    | +2
-Battle Axe              | +1            | +1        |  0    |  0
-Morning Star            | +2            | +1        |  0    |  0
-Flail                   |  0            |  0        |  0    | +1
-Spear                   | -2            | -1        |  0    |  0
-Pole Arms               | TODO          | TODO      | TODO  | TODO
-Halberd                 | TODO          | TODO      | TODO  | TODO
-2-Handed Sword          |  0            |  0        |  0    | +2
-Mounted Lance           | TODO          | TODO      | TODO  | TODO
-Pike                    | TODO          | TODO      | TODO  | TODO
+Class   | Weapon            | Cost  | Weight  | Handedness    | Damage
+--------|-------------------|-------|---------|---------------|-------
+ 1      | Dagger            | 3     | 20      | 1             | 1-4
+ 1      | Hand Axe          | 3     | 50      | 1             | 1-6
+ 3      | Mace              | 5     | 50      | 1             | 1-6
+ 4      | Sword             | 10    | 50      | 1             | 1-8
+ 5      | Battle Axe        | 7     | 100     | 1 or 2        | 1-8/2-8
+ 6      | Morning Star      | 6     | 100     | 2             | 1-8
+ 7      | Flail             | 8     | 100     | 1             | 1-8
+ 8      | Spear             | 1     | 50      | 1             | 1-6
+ 9      | Pole Arms         | 7     | 150     | 2             | 1-8
+ 9      | Halberd           | 7     | 150     | 2             | 1-10
+ 10     | 2-Handed Sword    | 15    | 150     | 2             | 1-10
+ 11     | Mounted Lance     | 4     | 100     | 1             | 1-8
+ 12     | Pike              | 5     | 150     | 2             | 1-8
 
 #### Missile
 
@@ -669,19 +656,6 @@ Thrown spear    | 2"    | 4"      | 6"
 Thrown\*        | -     | 3"      | -
 
 \* Thrown dagger or hand axe.
-
-##### To-hit adjustment versus AC category
-
-Weapon                  | Armoured      | Heavy     | Light | Unarmoured
-------------------------|---------------|-----------|-------|---------
-Hand Axe, thrown        | -2            | -1        |  0    |  0
-Long bow                | -1            |  0        |  0    | +1
-Short bow               | -2            | -1        |  0    |  0
-Heavy crossbow          | -1            |  0        | +1    | +1
-Light crossbow          | -2            | -1        |  0    |  0
-Dagger, thrown          | -2            | -1        |  0    |  0
-Spear, thrown           | -2            | -1        |  0    |  0
-Sling                   | -2            | -2        | -1    | +1
 
 ### Equipment
 

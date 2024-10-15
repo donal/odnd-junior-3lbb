@@ -17,7 +17,7 @@
 * smoothed saving throw matrices
 * shields can be sacrificed to block a blow
 * spears, daggers and hand axes may be thrown
-* the battle axe is as 2H weapon
+* NO: the battle axe is a 2H weapon
 * identify magic items with the Detect Magic spell
 * A human sized combatant can be attacked by at most 6 attackers. A large create can be attacked by at most 8.
 * Roll a 1d6 for surprise. A side is surprised on a 1 or 2.
