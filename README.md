@@ -20,12 +20,11 @@ Initiative may be adjusted by Dexterity.
 Examples where an initiative roll isn't needed:
 
 * Missile fire and spells always go before enemy closes distance for melee
-* Longer weapons (those with a higher Class) strike before shorter ones when joining melee
-* Shorter weapons (those with a lower Class) strike before shorter ones when in melee
+* Defenders with long weapons — spears and halberds — will go before an attacking enemy on the first round of melee
 
 Examples where an initiative roll is needed:
 
-* Who strikes first in melee with monsters that don't use weapons
+* Who strikes first in melee
 * Missile fire versus spell casting
 
 ### Turn order
@@ -590,7 +589,7 @@ The exception is Clerics — each level after name level requires 200k XP.
 Armour                  | Category      | AC
 ------------------------|---------------|------
 None                    | Unarmoured    | 9
-Shield                  | Light         | 7
+Shield\*                | Light         | 7
 Leather                 | Light         | 7
 Leather + Shield        | Light         | 6
 Chain mail              | Heavy         | 5
@@ -598,28 +597,27 @@ Chain mail + Shield     | Heavy         | 4
 Plate mail              | Armoured      | 3
 Plate mail + Shield     | Armoured      | 2
 
-### Weapons
+\* Shields impose a penalty of -1 to-hit on missiles and spears.
 
-* missiles and spears get -1 to-hit against opponents with shields
-* flails, battle axes (2H) and 2H swords get +1 to-hit against opponents with shields (negating the shield)
+### Weapons
 
 #### Melee
 
-Class   | Weapon            | Cost  | Weight  | Handedness    | Damage
---------|-------------------|-------|---------|---------------|-------
- 1      | Dagger            | 3     | 20      | 1             | 1-4
- 1      | Hand Axe          | 3     | 50      | 1             | 1-6
- 3      | Mace              | 5     | 50      | 1             | 1-6
- 4      | Sword             | 10    | 50      | 1             | 1-8
- 5      | Battle Axe        | 7     | 100     | 1 or 2        | 1-8/2-8
- 6      | Morning Star      | 6     | 100     | 2             | 1-8
- 7      | Flail             | 8     | 100     | 1             | 1-8
- 8      | Spear             | 1     | 50      | 1             | 1-6
- 9      | Pole Arms         | 7     | 150     | 2             | 1-8
- 9      | Halberd           | 7     | 150     | 2             | 1-10
- 10     | 2-Handed Sword    | 15    | 150     | 2             | 1-10
- 11     | Mounted Lance     | 4     | 100     | 1             | 1-8
- 12     | Pike              | 5     | 150     | 2             | 1-8
+Weapon            | Cost  | Weight  | Handedness    | Damage
+------------------|-------|---------|---------------|-------
+Dagger            | 3     | 20      | 1             | 1-4
+Hand Axe          | 3     | 50      | 1             | 1-6
+Mace              | 5     | 50      | 1             | 1-6
+Sword             | 10    | 50      | 1             | 1-8
+Battle Axe        | 7     | 100     | 1 or 2        | 1-8/2-8
+Morning Star      | 6     | 100     | 2             | 1-8
+Flail             | 8     | 100     | 1             | 1-8
+Spear             | 1     | 50      | 1             | 1-6
+Pole Arms         | 7     | 150     | 2             | 1-8
+Halberd           | 7     | 150     | 2             | 1-10
+2-Handed Sword    | 15    | 150     | 2             | 1-10
+Mounted Lance     | 4     | 100     | 1             | 1-8
+Pike              | 5     | 150     | 2             | 1-8
 
 #### Missile
 
