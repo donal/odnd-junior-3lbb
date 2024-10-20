@@ -20,12 +20,10 @@ Initiative may be adjusted by Dexterity.
 Examples where an initiative roll isn't needed:
 
 * Missile fire and spells always go before enemy closes distance for melee
-* Longer weapons (those with a higher Class) strike before shorter ones when joining melee
-* Shorter weapons (those with a lower Class) strike before shorter ones when in melee
 
 Examples where an initiative roll is needed:
 
-* Who strikes first in melee with monsters that don't use weapons
+* Who strikes first in melee
 * Missile fire versus spell casting
 
 ### Turn order
@@ -590,7 +588,7 @@ The exception is Clerics — each level after name level requires 200k XP.
 Armour                  | Category      | AC
 ------------------------|---------------|------
 None                    | Unarmoured    | 9
-Shield                  | Light         | 7
+Shield\*                | Light         | 7
 Leather                 | Light         | 7
 Leather + Shield        | Light         | 6
 Chain mail              | Heavy         | 5
@@ -598,10 +596,9 @@ Chain mail + Shield     | Heavy         | 4
 Plate mail              | Armoured      | 3
 Plate mail + Shield     | Armoured      | 2
 
-### Weapons
+\* Shields impose a penalty of -1 to-hit on missiles and spears.
 
-* missiles and spears get -1 to-hit against opponents with shields
-* flails, battle axes (2H) and 2H swords get +1 to-hit against opponents with shields (negating the shield)
+### Weapons
 
 #### Melee
 
